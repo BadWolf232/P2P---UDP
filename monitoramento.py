@@ -3,7 +3,7 @@ import os
 import watchdog.events
 
 #Detecta adições, modificações e exclusões locais e notifica o Peer.
-class FileChangeHandler(watchdog.events.FileSystemEventHandler):
+class mudancaPasta(watchdog.events.FileSystemEventHandler):
    
     def __init__(self, peer_instance, file_manager):
         self.peer = peer_instance
