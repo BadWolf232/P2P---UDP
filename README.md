@@ -6,7 +6,7 @@ Cada nó (peer) na rede atua simultaneamente como **servidor** e **cliente**, ga
 
 ##  Tecnologias Utilizadas
 
-* **Linguagem de Programação:** Python 3.x
+* **Linguagem de Programação:** Python 3.10.11
 * **Protocolo de Transporte:** UDP
 * **Bibliotecas Principais:**
     * `socket`: Para a comunicação UDP (cliente e servidor).
