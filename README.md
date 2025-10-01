@@ -18,7 +18,7 @@ Cada nó (peer) na rede atua simultaneamente como **servidor** e **cliente**, ga
 
 ## Estrutura da Rede e Configuração
 
-[cite_start]A rede é **estática** (os peers são conhecidos) e definida por arquivos de configuração JSON. Esta configuração permitiu adicionar novas peers, adicionando apenas mais uma linha com o endereço e ip das máquinas. Na demonstração é utilizado o padrão mínimo estabelecido pelo trabalho de três peers.
+A rede é **estática** (os peers são conhecidos) e definida por arquivos de configuração JSON. Esta configuração permitiu adicionar novas peers, adicionando apenas mais uma linha com o endereço e ip das máquinas. Na demonstração é utilizado o padrão mínimo estabelecido pelo trabalho de três peers.
 
 ### **Configurações de Exemplo**
 
