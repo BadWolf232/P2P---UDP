@@ -5,7 +5,7 @@ import watchdog.observers
 from servidor_UDP import servidorUDP 
 from cliente_UDP import clienteUDP
 from organizador import organizador  
-from monitoramento import FileChangeHandler
+from monitoramento import mudancaPasta
 
 # Integração dos componentes no peer
 class Peer:
