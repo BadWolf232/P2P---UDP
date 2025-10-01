@@ -59,13 +59,13 @@ Segue os comandos para a criação do ambiente virtual padrão python:
 ```
 python3 -m venv venv
 ```
-**Para Linux/Mac 
+**Para Linux/Mac **
 
 ``` 
 source venv/bin/activate
 ```
 
-**Para Windows
+**Para Windows**
 ```
 venv\Scripts\activate
 ```
