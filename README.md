@@ -4,7 +4,7 @@ Este é um projeto para a cadeira de Redes de Computadores: Aplicação e transp
 
 Cada nó (peer) na rede atua simultaneamente como **servidor** e **cliente**, garantindo que um diretório pré-definido (`tmp_peerX`) seja **sincronizado** com todos os arquivos presentes em cada peer da rede.
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * **Linguagem de Programação:** Python 3.x
 * **Protocolo de Transporte:** UDP
@@ -16,7 +16,7 @@ Cada nó (peer) na rede atua simultaneamente como **servidor** e **cliente**, ga
 
 ---
 
-## ⚙️ Estrutura da Rede e Configuração
+## Estrutura da Rede e Configuração
 
 [cite_start]A rede é **estática** (os peers são conhecidos) e definida por arquivos de configuração JSON. Esta configuração permitiu adicionar novas peers, adicionando apenas mais uma linha com o endereço e ip das máquinas. Na demonstração é utilizado o padrão mínimo estabelecido pelo trabalho de três peers.
 
@@ -47,26 +47,28 @@ Cada nó (peer) na rede atua simultaneamente como **servidor** e **cliente**, ga
 
 É necessário ter o Python 3 e a biblioteca `watchdog` instalada:
 
-```bash
+```
 pip install watchdog
-
+```
 **ponto importante**
 
 Caso a biblioteca não consiga ser instalada, é necessário estabelecer um ambiente virtual para que a aplicação possa ser instalada. 
 
 Segue os comandos para a criação do ambiente virtual padrão python: 
 
-```bash 
+```
 python3 -m venv venv
-
+```
 **Para Linux/Mac 
 
-```bash 
+``` 
 source venv/bin/activate
+```
 
 **Para Windows
+```
 venv\Scripts\activate
-
+```
 
 Após a ativação do ambiente virtual, basta instalar a biblioteca.  
 
@@ -75,15 +77,18 @@ Após a ativação do ambiente virtual, basta instalar a biblioteca.
 
 **Primeira máquina**
 
-```bash 
+```
 python peer.py peer1.json
+```
 
 **Segunda máquina**
 
-```bash 
+```
 python peer.py peer2.json
+```
 
 **Terceira máquina**
 
-```bash 
+```
 python peer.py peer3.json
+```
