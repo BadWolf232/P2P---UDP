@@ -50,7 +50,7 @@ Cada nó (peer) na rede atua simultaneamente como **servidor** e **cliente**, ga
 ```
 pip install watchdog
 ```
-**ponto importante**
+**Ponto importante**
 
 Caso a biblioteca não consiga ser instalada, é necessário estabelecer um ambiente virtual para que a aplicação possa ser instalada. 
 
