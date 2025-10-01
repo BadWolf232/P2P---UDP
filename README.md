@@ -41,7 +41,7 @@ Cada nó (peer) na rede atua simultaneamente como **servidor** e **cliente**, ga
 
 ---
 
-## ▶️ Como Executar
+##  Como Executar
 
 ### **Pré-requisitos**
 
