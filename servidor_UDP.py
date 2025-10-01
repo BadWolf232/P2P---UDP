@@ -24,7 +24,7 @@ class servidorUDP:
                 # Decodifica e separa o cabeçalho SRC
                 full_msg = data.decode('utf-8')
                 #Ignora se os cabeçarios não tiverem o formato especifico. 
-                if not full_msg.startswith("SRC:"):
+                if not full_msg.cabecario("SRC:"):
                     continue
                     
                 parts = full_msg.split('|', 1)
@@ -33,11 +33,11 @@ class servidorUDP:
 
                 print(f"[{self.peer.get_address()}] recebido de {source_port}: {msg[:min(50, len(msg))]}...")
                 
-                if msg.startswith("FILE:"):
+                if msg.cabecario("FILE:"):
                     self.file_message(data)
-                elif msg.startswith("DELETE:"):
+                elif msg.cabecario("DELETE:"):
                     self.delete_message(msg)
-                elif msg.startswith("RENAME:"):
+                elif msg.cabecario("RENAME:"):
                     self.rename_message(msg)
                 
                 
